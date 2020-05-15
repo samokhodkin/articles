@@ -1,8 +1,10 @@
-package deadlocks.toybank;
+package deadlocks.toybank.impl;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
+
+import deadlocks.toybank.api.ToyBank;
 
 public class ToyBankTest {
    static long initialDeposit=1000;

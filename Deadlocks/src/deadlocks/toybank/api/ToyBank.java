@@ -1,6 +1,6 @@
-package deadlocks.toybank;
+package deadlocks.toybank.api;
 
-import deadlocks.toybank.exception.*;
+import deadlocks.toybank.api.*;
 
 public interface ToyBank {
    /**

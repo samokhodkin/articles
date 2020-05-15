@@ -1,9 +1,9 @@
-package deadlocks.toybank;
+package deadlocks.toybank.impl;
 
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicLong;
 
-import deadlocks.toybank.exception.*;
+import deadlocks.toybank.api.*;
 
 public class ToyBankConcurrent implements ToyBank{
    private static final long ACCOUNT_DELETED = -1;

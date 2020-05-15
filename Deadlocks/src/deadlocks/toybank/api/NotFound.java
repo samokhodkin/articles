@@ -1,4 +1,4 @@
-package deadlocks.toybank.exception;
+package deadlocks.toybank.api;
 
 @SuppressWarnings("serial")
 public class NotFound extends Exception{

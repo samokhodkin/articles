@@ -1,9 +1,9 @@
-package deadlocks.toybank;
+package deadlocks.toybank.impl;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import deadlocks.toybank.exception.*;
+import deadlocks.toybank.api.*;
 
 public abstract class ToyBankBase implements ToyBank{
    protected final Map<Long,long[]> db=new HashMap<>();

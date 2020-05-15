@@ -1,6 +1,6 @@
-package deadlocks.toybank;
+package deadlocks.toybank.impl;
 
-import deadlocks.toybank.exception.*;
+import deadlocks.toybank.api.*;
 
 public class ToyBankCoarse extends ToyBankBase {
    public synchronized Long createAccount(long initialDeposit) throws BalanceOverflow{

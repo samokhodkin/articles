@@ -1,12 +1,12 @@
-package deadlocks.toybank;
+package deadlocks.toybank.impl;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
-import deadlocks.toybank.exception.BalanceOverflow;
-import deadlocks.toybank.exception.InsufficientBalance;
-import deadlocks.toybank.exception.NotFound;
+import deadlocks.toybank.api.BalanceOverflow;
+import deadlocks.toybank.api.InsufficientBalance;
+import deadlocks.toybank.api.NotFound;
 
 public class ToyBankOrdered extends ToyBankBase {
    private ReadWriteLock rwLock = new ReentrantReadWriteLock();
