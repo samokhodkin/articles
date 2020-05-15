@@ -1,5 +1,11 @@
 package deadlocks.example;
 
+/**
+ * Example of transactionally independent groups of variables.
+ * 
+ * @author S.Samokhodkin
+ */
+
 public class Groups {
    int A, B, C, D;
    

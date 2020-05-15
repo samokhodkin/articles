@@ -1,5 +1,11 @@
 package deadlocks.example;
 
+/**
+ * Most basic deadlock example.
+ * Note the order of locking.
+ * 
+ * @author S.Samokhodkin
+ */
 public class MyDeadlock{
    static final Object lock1=new Object();
    static final Object lock2=new Object();
