@@ -1,4 +1,4 @@
-package deadlocks;
+package deadlocks.example;
 
 public class Groups {
    int A, B, C, D;

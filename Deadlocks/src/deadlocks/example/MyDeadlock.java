@@ -1,4 +1,4 @@
-package deadlocks;
+package deadlocks.example;
 
 public class MyDeadlock{
    static final Object lock1=new Object();

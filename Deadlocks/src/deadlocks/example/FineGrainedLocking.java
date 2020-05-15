@@ -1,4 +1,4 @@
-package deadlocks;
+package deadlocks.example;
 
 public class FineGrainedLocking {
    long[] data;

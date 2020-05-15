@@ -1,4 +1,4 @@
-package deadlocks;
+package deadlocks.example;
 
 import java.util.concurrent.ConcurrentHashMap;
 

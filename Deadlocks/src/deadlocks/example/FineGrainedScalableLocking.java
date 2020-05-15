@@ -1,4 +1,4 @@
-package deadlocks;
+package deadlocks.example;
 
 public class FineGrainedScalableLocking {
    static final int POOL_SIZE = 1<<8;
