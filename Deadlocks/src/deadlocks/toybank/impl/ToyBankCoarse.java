@@ -2,6 +2,12 @@ package deadlocks.toybank.impl;
 
 import deadlocks.toybank.api.*;
 
+/**
+ * Implementation using coarse-grained synchronization
+ * 
+ * @author S.Samokhodkin
+ */
+
 public class ToyBankCoarse extends ToyBankBase {
    public synchronized Long createAccount(long initialDeposit) throws BalanceOverflow{
       return super.createAccount(initialDeposit);

@@ -5,6 +5,12 @@ import java.util.Map;
 
 import deadlocks.toybank.api.*;
 
+/**
+ * Basic non-thread-safe implementation
+ * 
+ * @author S.Samokhodkin
+ */
+
 public abstract class ToyBankBase implements ToyBank{
    protected final Map<Long,long[]> db=new HashMap<>();
    protected long idGenerator = 1;

@@ -8,6 +8,12 @@ import deadlocks.toybank.api.BalanceOverflow;
 import deadlocks.toybank.api.InsufficientBalance;
 import deadlocks.toybank.api.NotFound;
 
+/**
+ * Partially concurrent implementation using fine-grained synchronization
+ * 
+ * @author S.Samokhodkin
+ */
+
 public class ToyBankOrdered extends ToyBankBase {
    private ReadWriteLock rwLock = new ReentrantReadWriteLock();
    private Lock readLock = rwLock.readLock();

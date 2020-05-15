@@ -2,6 +2,12 @@ package deadlocks.toybank.api;
 
 import deadlocks.toybank.api.*;
 
+/**
+ * Main interface
+ * 
+ * @author S.Samokhodkin
+ */
+
 public interface ToyBank {
    /**
     * the limit for every account's balance

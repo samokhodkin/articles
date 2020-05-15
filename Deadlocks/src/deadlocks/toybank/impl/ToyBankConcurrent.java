@@ -5,6 +5,12 @@ import java.util.concurrent.atomic.AtomicLong;
 
 import deadlocks.toybank.api.*;
 
+/**
+ * Fully concurrent implementation using fine-grained synchronization
+ * 
+ * @author S.Samokhodkin
+ */
+
 public class ToyBankConcurrent implements ToyBank{
    private static final long ACCOUNT_DELETED = -1;
    
