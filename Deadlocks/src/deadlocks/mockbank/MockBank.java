@@ -11,7 +11,7 @@ public interface MockBank {
    public long MAX_BALANCE = 1L<<20;
    
    /**
-    * Deposit money. The balance should exceed MAX_BALANCE.
+    * Deposit money. The balance may not exceed MAX_BALANCE.
     *  
     * @exception IllegalArgumentException if the amount is negative or the account doesn't exist
     * @exception IllegalStateException if the updated balance would overflow the MAX_BALANCE
