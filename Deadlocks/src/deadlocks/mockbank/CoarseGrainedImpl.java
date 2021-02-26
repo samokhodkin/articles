@@ -1,4 +1,4 @@
-package deadlocks.toybank.impl;
+package deadlocks.mockbank;
 
 import java.util.*;
 

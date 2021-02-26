@@ -1,4 +1,4 @@
-package deadlocks.toybank.impl;
+package deadlocks.mockbank;
 
 public interface ErrorHelpers {
    default void throwNegativeAmount(long amount){

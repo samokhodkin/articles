@@ -1,4 +1,4 @@
-package deadlocks.toybank.impl;
+package deadlocks.mockbank;
 
 /**
  * This class demonstrates a memory-efficient version of the fine-grained
