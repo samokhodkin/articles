@@ -1,4 +1,5 @@
 My articles
 
-Deadlocks:
+Deadlocks published:
+
 https://dzone.com/articles/deadlock-free-synchronization-in-java
